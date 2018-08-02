@@ -247,6 +247,7 @@ private:
     SkOSMenu* fSlideMenu; // We pass ownership to SkWindow, when we call addMenu
 
     int fThreads = 0;
+    int yTest = 0;
 
     void loadView(SkView*);
     void updateTitle();
